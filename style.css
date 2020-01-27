@@ -4,7 +4,6 @@
     text-align: center;
     font-family: sans-serif;
     box-sizing: border-box;
-    
 }
 
 header {
@@ -25,6 +24,23 @@ section {
     margin-bottom: 15px;
 }
 
+aside {
+    background: white;
+    padding: 30px;
+    margin-bottom: 15px;
+    height: 245px;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+#box {
+    width: 50%;
+}
+
 article {
     color: white;
     padding: 15px;
@@ -41,27 +57,9 @@ p{
 h1 {
     color: gray;
     background: white;
-}
-
-#headertext {
-    background: white;
     padding: 2px;
     margin-top: 10px;
-}
-
-#left {
-    float: left;
-    width: 50%;
-}
-
-#right {
-    float: left;
-    width: 50%;
-}
-
-aside {
-    background: white;
-    padding: 75px;
+    margin-bottom: 0px;
 }
 
 footer {
