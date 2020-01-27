@@ -3,6 +3,7 @@
     color: gray;
     text-align: center;
     font-family: sans-serif;
+    box-sizing: border-box;
     
 }
 
@@ -21,8 +22,7 @@ nav {
 section {
     background: white;
     padding: 30px;
-    float: left;
-    width: 50%;
+    margin-bottom: 15px;
 }
 
 article {
@@ -35,6 +35,7 @@ article {
 p{
     padding: 10px;
     background: white;
+    margin-top: 10px;
 }
 
 h1 {
@@ -46,22 +47,25 @@ h1 {
     background: white;
     padding: 2px;
     margin-top: 10px;
-    margin-bottom: 5px;
+}
+
+#left {
+    float: left;
+    width: 50%;
+}
+
+#right {
+    float: left;
+    width: 50%;
 }
 
 aside {
     background: white;
-    padding: 30px;
-    float: left;
-    width: 50%;
+    padding: 75px;
 }
 
 footer {
     background: white;
     padding: 30px;
-    margin-bottom: 10px;
-}
-
-#middle {
     width: 100%;
 }
