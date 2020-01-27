@@ -1,31 +1,67 @@
 * {
-    background: darkgrey;
+    background: gray;
     color: gray;
     text-align: center;
+    font-family: sans-serif;
+    
 }
 
 header {
     background: white;
-    padding: 20px;
+    padding: 30px;
     margin-bottom: 10px;
 }
 
 nav {
     background: white;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
 section {
     background: white;
+    padding: 30px;
+    float: left;
+    width: 50%;
+}
+
+article {
+    color: white;
+    padding: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+p{
+    padding: 10px;
+    background: white;
+}
+
+h1 {
+    color: gray;
+    background: white;
+}
+
+#headertext {
+    background: white;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 aside {
     background: white;
+    padding: 30px;
+    float: left;
+    width: 50%;
 }
 
 footer {
     background: white;
+    padding: 30px;
+    margin-bottom: 10px;
 }
 
-div {
-    background: white;
+#middle {
+    width: 100%;
 }
