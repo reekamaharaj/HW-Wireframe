@@ -22,6 +22,9 @@ section {
     background: white;
     padding: 30px;
     margin-bottom: 15px;
+    float: left;
+    width: 100%;
+    /* Flexbox, get rid of the float and width here*/
 }
 
 aside {
@@ -32,13 +35,17 @@ aside {
     margin-left: 10px;
 }
 
+/* Flexbox would need this
 .container {
     display: flex;
-    flex-direction: row;
-}
+    flex-direction: row; 
+}*/
+
 
 #box {
+    float: left;
     width: 50%;
+    /* Flexbox, remove float */
 }
 
 article {
@@ -66,4 +73,6 @@ footer {
     background: white;
     padding: 30px;
     width: 100%;
+    clear: both;
 }
+
