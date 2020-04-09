@@ -4,7 +4,7 @@ Basic wireframe page built with HTML and CSS
 ## Tech used
 - HTML
 - CSS
-- Visual Studios
+- Visual Studio
 
 ![](wireframe.png)
 
